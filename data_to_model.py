@@ -45,22 +45,21 @@ for filename in os.listdir(input_path):
     end = l % interval
     data = data[0:l - end + 1][:]
 
-    #fill empty
-    for i in range(0,len(data)):
+    # fill empty
+    for i in range(0, len(data)):
         if len(data[i]) < 8:
             data[i] = data[-1]
-            print('fix--' + str(filename) + 'line:' +  str(i))
+            print('fix--' + str(filename) + 'line:' + str(i))
 
-    # azimut calc
+    # azimuth calc
     for i in range(interval, len(data), interval):
-
         tmp_azi, tmp_dis = Distance(data[i - interval][0], data[i - interval][1], data[i][0], data[i][1])
         tmp_azi = tmp_azi % 360
         data[i][8], data[i][9] = tmp_azi, tmp_dis
 
     datacopy = copy.deepcopy(data)
 
-    # azimut diffrence (x2 - x1)
+    # azimuth difference (x2 - x1)
     for i in range(interval, len(data), interval):
         data[i][8] = (datacopy[i][8] - datacopy[i - interval][8])
 
