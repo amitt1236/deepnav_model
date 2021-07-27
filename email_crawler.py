@@ -11,10 +11,10 @@ import datetime
 output_dir = "/Users/amitaflalo/Desktop/deepnav/data/email"
 
 
-def main():
+def crawl(email_address):
     num = 0
     M = imaplib.IMAP4_SSL("imap.gmail.com", 993)
-    M.login("deep.nav.data@gmail.com", getpass.getpass())
+    M.login(email_address, getpass.getpass())
     M.select("Inbox")
     (retcode, messages) = M.search(None, '(UNSEEN)')
     if retcode == 'OK':
@@ -41,4 +41,4 @@ def downloadAttachment(M, massage, output_dir):
 
 
 if __name__ == "__main__":
-    main()
+    crawl("deep.nav.data@gmail.com")
