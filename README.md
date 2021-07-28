@@ -8,6 +8,6 @@ the end goal is to create a basic inertial navigation system.
 Regression isn't reliable enough on the current architecture. Experimenting on different architectures.
 
 # data pipeline 
-The data is collected on the phone and when the drive is over is sent by email to a pre Defined email.  
-an email crawler using python grabs all the data from the detected email and saves it.  
+After the data is collected on the phone is sent by email to a pre Defined email Address.  
+an email crawler using python grabs all the data from the detecated email and saves it localy.  
 a python scipt extracts and organize all the relevant data.
