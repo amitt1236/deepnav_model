@@ -18,8 +18,8 @@ gyro = gyroscope
 
 Data format before prossesing
 
-| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis|
-| ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|
+| Longitude     | latitude      | accel  x axis | accel  y axis | accel  z axis | gyro  x axis | gyro  y axis | gyro  z axis|
+| ------------- |:-------------:| -------------:|--------------:|--------------:|-------------:|-------------:|------------:|
 
 Data format before prossesing
 
