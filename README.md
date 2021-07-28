@@ -13,8 +13,8 @@ an email crawler using python grabs all the data from the detecated email and sa
 a python scipt extracts and organize all the relevant data.(data_to_model.py)
 
 # data format
-accel = accelerometer
-gyro = gyroscope 
+accel = accelerometer   
+gyro = gyroscope   
 
 Data format before prossesing
 
