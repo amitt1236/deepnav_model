@@ -7,6 +7,9 @@ the end goal is to create a basic inertial navigation system.
 # current phase  
 Regression isn't reliable enough on the current architecture. Experimenting on different architectures.
 
+# data collection 
+https://github.com/amitt1236/deep-nav
+
 # data pipeline 
 After the data is collected on the phone is sent by email to a pre Defined email Address.  
 an email crawler using python grabs all the data from the detecated email and saves it localy.(email_crawler.py)  
