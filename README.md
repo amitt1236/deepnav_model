@@ -13,6 +13,17 @@ an email crawler using python grabs all the data from the detecated email and sa
 a python scipt extracts and organize all the relevant data.(data_to_model.py)
 
 # data format
+accel = accelerometer
+gyro = gyroscope 
 
-| Longitude     | latitude      | accelerometer x | accelerometer y | accelerometer z | gyro x | gyro y | gyro z|
-| ------------- |:-------------:| ---------------:|----------------:|----------------:|-------:|-------:|------:|
+Data format before prossesing
+
+| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis|
+| ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|
+
+Data format before prossesing
+
+| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis| acceleration | 
+| ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|-------------:|
+
+acceleration is calculated by measuring the distance between two points on 1 secound interval.
