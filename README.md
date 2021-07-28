@@ -11,3 +11,8 @@ Regression isn't reliable enough on the current architecture. Experimenting on d
 After the data is collected on the phone is sent by email to a pre Defined email Address.  
 an email crawler using python grabs all the data from the detecated email and saves it localy.(email_crawler.py)  
 a python scipt extracts and organize all the relevant data.(data_to_model.py)
+
+# data format
+
+| Longitude     | latitude      | accelerometer x | accelerometer y | accelerometer z | gyro x | gyro y | gyro z|
+| ------------- |:-------------:| ---------------:|----------------:|----------------:|-------:|-------:|------:|
