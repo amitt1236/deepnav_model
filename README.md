@@ -23,7 +23,12 @@ Data format before prossesing
 
 Data format before prossesing
 
-| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis| acceleration | 
-| ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|-------------:|
+| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis| acceleration | azimuth diff |
+| ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|-------------:|-------------:|
 
-acceleration is calculated by measuring the distance between two points on 1 secound interval.
+speed(m/s) is calculated by measuring the distance between two points on one secound interval.  
+acceleration  is calculated by the difference in speed between intervals.  
+  
+azimuth is the direction of driving, and calculated by two Gps Coordinates on one secound interval.  
+azimut difference is calculated by the difference in azimuth  between intervals.  
+
