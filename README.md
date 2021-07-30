@@ -26,7 +26,7 @@ Data format before prossesing
 
 Data format before prossesing
 
-| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis| acceleration | azimuth diff |
+| Longitude     | latitude      | accel x axis | accel y axis | accel z axis | gyro x axis | gyro y axis | gyro z axis| azimuth diff | acceleration |
 | ------------- |:-------------:| ------------:|-------------:|-------------:|------------:|------------:|-----------:|-------------:|-------------:|
 
 speed(m/s) is calculated by measuring the distance between two points on one secound interval.  
